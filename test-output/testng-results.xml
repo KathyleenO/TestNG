@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-12T13:07:26 EST" name="Default suite" finished-at="2020-01-12T13:07:41 EST" duration-ms="15283">
+    <groups>
+    </groups>
+    <test started-at="2020-01-12T13:07:26 EST" name="Default test" finished-at="2020-01-12T13:07:41 EST" duration-ms="15283">
+      <class name="com.class2.TCAssertions">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.class2.TCAssertions@3ec300f1]" started-at="2020-01-12T13:07:26 EST" name="openBrowser" finished-at="2020-01-12T13:07:33 EST" duration-ms="6701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="task()[pri:0, instance:com.class2.TCAssertions@3ec300f1]" started-at="2020-01-12T13:07:33 EST" name="task" finished-at="2020-01-12T13:07:41 EST" duration-ms="8504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- task -->
+      </class> <!-- com.class2.TCAssertions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
