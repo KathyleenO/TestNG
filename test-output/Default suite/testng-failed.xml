@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.class2.TCAssertions">
+      <class name="com.class4.LoginAndTitle">
         <methods>
-          <include name="task"/>
-          <include name="openBrowser"/>
+          <include name="logoValidation"/>
+          <include name="titleValidation"/>
+          <include name="closeBrowser"/>
+          <include name="openAndNavigate"/>
         </methods>
-      </class> <!-- com.class2.TCAssertions -->
+      </class> <!-- com.class4.LoginAndTitle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

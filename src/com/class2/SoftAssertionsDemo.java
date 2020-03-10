@@ -9,7 +9,11 @@ import org.testng.asserts.SoftAssert;
 
 import com.utils.CommonMethods;
 import com.utils.Constants;
-
+/* Open Application
+ * Verify logo is displayed
+ * Enter valid credentials
+ * Verify user successfully logged in
+ */
 public class SoftAssertionsDemo extends CommonMethods {
 
 	
@@ -19,7 +23,7 @@ public class SoftAssertionsDemo extends CommonMethods {
 	}
 	
 	
-	@Test()
+	@Test(groups="smoke")
 	public void LogoAndLogin() {
 		boolean logo=driver.findElement(By.xpath("//div[@id='divLogo']/img")).isDisplayed();
 		logo=false;
@@ -44,7 +48,7 @@ public class SoftAssertionsDemo extends CommonMethods {
 }
 	
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void closeBrowser() {
 		driver.quit();
 	}

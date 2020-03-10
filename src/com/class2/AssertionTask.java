@@ -14,11 +14,11 @@ public class AssertionTask extends CommonMethods{
 
 
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void openBrowser() {
 		SetUp("chrome", Constants.HRMS_URL);
 	}
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void closeBrowser() {
 		driver.quit();
 	}
